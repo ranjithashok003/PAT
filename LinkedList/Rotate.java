@@ -14,6 +14,10 @@ public class Rotate {
                     t=t.next;
                     t2 = t2.next;
                 }
+
+                else{
+                    break;
+                }
             }
             rotated.insert(h.key);
             a = rotated;
