@@ -1,3 +1,6 @@
+//Given a Singly Linked List a0 -> a1 -> a2 -> .. -> a(n-1) -> an. The task is to reorder it to a0 -> an -> a1 -> a(n-1) -> a2 -> a(n-2) -> ..
+//Mostly The same logic used for Palindrome
+
 import java.util.*;
 
 public class reorder {
