@@ -8,6 +8,8 @@ public class reorder {
         Linked_List reordered = new Linked_List();
         Node s = a.head;
         Node e = a.tail;
+
+        //If this is not included, the middle element is not considered in case of odd numbers
         if (n%2!=0){
             n=n+1;
         }
