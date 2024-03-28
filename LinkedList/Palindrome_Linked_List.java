@@ -7,10 +7,9 @@ public class Palindrome_Linked_List {
         Node y = a.tail;
         for (int i =0; i<n/2;i++ ){
             Node temp = x;
-            while(temp.next.key!=y.key){
+            while(temp.next.next!=null){
                 temp = temp.next;
             }
-            System.out.println(temp.key);
             if(x.key != temp.next.key){
                 return "False";
             }
